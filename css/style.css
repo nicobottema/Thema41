@@ -1,0 +1,132 @@
+html { 
+  background: url('../img/dark_embroidery.png') ; 
+  background-repeat: repeat;
+  font-family:"Open Sans" sans-serif;
+}
+
+a {
+	color: red;
+	text-decoration:none;
+}
+
+a:hover, a:active, a:focus {
+	text-decoration:underline;
+}
+
+p {
+	text-align:center;
+}
+
+.content {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.content table {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.content h3 {
+	text-align:center;
+}
+
+.content h4 {
+	text-align:center;
+}
+
+.container {
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	margin-bottom:40px;
+	border-radius: 25px;
+	background-color:#F9F9F9;
+	padding:20px;
+	padding-left:40px;
+	padding-right:40px;
+	min-height:700px;
+	position:relative;
+}
+
+.middle {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+.login-table {
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.login-table td {
+	padding:5px;
+}
+
+input:not([type]), input[type="email" i], input[type="number" i], input[type="password" i], input[type="tel" i], input[type="url" i], input[type="text" i] {
+    width:200px;
+}
+
+.login form, .register form  {
+	text-align:center;
+}
+
+.menu ul {
+	list-style:none;
+	padding:0;
+}
+
+.menu ul li {
+	text-decoration:none;
+}
+
+.menu ul li a {
+	text-decoration:none;
+	color: #333;
+}
+
+.menu ul li a:hover, .menu ul li a:active {
+	text-decoration:underline;
+}
+
+.compprov canvas {
+	margin-left:5%;
+}
+
+.compprov #legend {
+	margin-left:5%;
+}
+
+.back-button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #333;
+	width:130px;
+	cursor:pointer;
+	position:absolute;
+}
+
+.back-button a {
+	text-decoration:none;
+}
+
+#back-button { 
+	text-decoration:none;
+}
+
+.menu .middle li {
+	width: 300px;
+border: 1px solid #333;
+padding: 5px;
+padding-bottom: 5px;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+margin-bottom:2px;
+cursor:pointer;
+}
